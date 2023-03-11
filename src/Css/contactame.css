@@ -1,0 +1,72 @@
+.contactame{
+    margin-top: 2.7cm;
+    background-color: white;
+    text-align: center; 
+    height: 750px;
+    display: grid;
+    padding-top: 2cm;
+    grid-template-rows: 2cm auto;
+}
+
+.contactame h1{
+    text-decoration: underline;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(243, 243, 243);
+    border-radius: 8px 8px;
+    box-shadow:  0.2px 0.3px black;
+}
+
+.form .datos-redes{
+    width: 70%;
+    height: 70%;
+    margin: auto auto;
+    padding: 4px;
+}
+
+.form .datos-redes p{
+    font-weight: bold;
+}
+
+.form .datos-redes p i{
+    font-size: 1.2rem;
+}
+
+.form .datos-redes p:nth-child(1) i{
+    color: rgb(101, 165, 6);
+    font-weight: bold;
+}
+
+.form .datos-redes p:nth-child(2) i{
+    color: rgb(189, 9, 9);
+    font-weight: bold;
+}
+
+.form .datos-redes p:nth-child(3) i{
+    color: rgb(111, 22, 212);
+    font-weight: bold;
+}
+
+.form .datos-redes img{
+    width: 8cm;
+    height: 8cm;
+    border-radius: 6px 6px;
+}
+
+.form .form-inputs{
+    width: 70%;
+    height: 70%;
+    margin: auto auto;
+    padding: 1px 5px;
+}
+
+.form .form-inputs form{
+    display: grid;
+    grid-template-rows: 10% 10% 60% 20%;
+    gap: 0.2cm;
+}

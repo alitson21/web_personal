@@ -1,0 +1,49 @@
+.about {
+    margin-top: 2.7cm;
+    height: 985px;
+    display: grid;
+    grid-template-columns: auto; 
+    background-image: url('../Imagenes/fondo8.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+.about .about-width {
+    background-color: rgb(247, 244, 244);
+    width: 70%;
+    margin: 2cm auto;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    border-radius: 8px 8px;
+}
+
+.about .about-width .about-datos {
+    display: grid;
+    grid-template-rows: 60% 40%;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.about .about-width .about-datos h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.about .about-width .carrusel {
+    width: 70%;
+    height: 550px;
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0 auto;
+}
+
+.about .carrusel .sub-carrusel {
+    padding: 0 2cm 0 4.5cm;
+    width: 980px;
+    height: 550px;
+    margin: 0 auto;
+}

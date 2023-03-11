@@ -1,0 +1,108 @@
+.home {
+    margin-top: 2.7cm;
+    margin-bottom: 3.5cm;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 15% 40% 40% 5%;
+    height: 850px;
+    background-image: url('../Imagenes/fondo9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.home .redes {
+    display: grid;
+    grid-template-columns: auto;
+    align-content: end;
+    justify-content: start;
+    width: 8cm;
+}
+
+.home .redes ul {
+    margin-bottom: 5cm;
+}
+
+.home .redes ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+.home .redes ul li i {
+    font-size: 2.2em;
+}
+
+.home .redes ul li i:hover{
+    font-size: 3.0rem;
+    transition: 1s all;
+}
+
+.home .redes ul li:nth-child(1) i {
+    color: red;
+}
+
+.home .redes ul li:nth-child(2) i {
+    color: rgb(122, 123, 58);
+}
+
+.home .redes ul li:nth-child(3) i {
+    color: rgb(73, 121, 198);
+}
+
+.home .redes ul li:nth-child(4) i {
+    color: rgb(182, 37, 160);
+}
+
+.home .redes ul li:nth-child(5) i {
+    color: rgb(47, 16, 120);
+}
+
+.home .redes ul li:nth-child(6) i {
+    color: rgb(10, 175, 21);
+}
+
+/* CSS PARA LA PARTE DE INFORMACION  */
+
+.home .informacion{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+}
+
+.home .informacion .info h1 b:nth-last-child(2){
+    color: rgb(131, 26, 26);
+}
+
+.home .informacion .info h1 b:nth-last-child(1){
+    color: rgb(41, 99, 201);
+}
+
+.home .informacion .info p i{
+    color: gold;
+    font-weight: bold;
+}
+
+.home .informacion .info p{
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.home .scroll{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: end;
+    padding-right: 15px;
+}
+
+.home .scroll a{
+    text-decoration: none;
+    color: black;
+    margin:0 auto 8cm auto;
+    font-size: 12px;
+    width: 3.4cm;
+    transform: rotate(90deg);
+}
+
+.home .scroll a i{
+    color: brown;
+}

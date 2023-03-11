@@ -1,0 +1,38 @@
+.proyectos{
+    height: 828px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 80%;
+    margin: 2.7cm auto 0 auto;
+    background-image: url('../Imagenes/fondo7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.proyectos .cards{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.proyectos .cards h2{
+    margin-top: 1cm;
+    color: white;
+}
+
+.proyectos .mini-proyectos{
+    margin-top: 1cm;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0.5cm;
+    color: grey;
+}
+
+.proyectos .mini-proyectos a{
+    text-decoration: none;
+    color: brown;
+}
+
+.proyectos .mini-proyectos a i{
+    color: rgb(19, 94, 222);
+}
